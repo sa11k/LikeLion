@@ -16,12 +16,12 @@ Git(파일의 변천사를 저장) + hub
 
 ## Repository 생성 및 첫 푸시
 1. [Github](https://github.com/) 웹사이트에서 Repository 생성
- - New 버튼을 이용하여 새로운 Repository 생성
- - Repository Name 설정
- - Description : 설명 작성 (필수 아님)
- - Public / Private 선택
- - Create Repository
- - 맨 위의 주소 복사해놓기 (Push 할 때 필요)
+    - New 버튼을 이용하여 새로운 Repository 생성
+    - Repository Name 설정
+    - Description : 설명 작성 (필수 아님)
+    - Public / Private 선택
+    - Create Repository
+    - 맨 위의 주소 복사해놓기 (Push 할 때 필요)
 2. Visual code에서 업로드하고 싶은 코드를 준비
 3. 터미널 창 열기
 4. 해당 코드가 있는 디렉토리로 이동 (cd 명령어 이용)
