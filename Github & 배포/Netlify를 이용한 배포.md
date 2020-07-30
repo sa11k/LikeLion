@@ -8,7 +8,7 @@
 
 ## Netlify 배포 과정
 1. 코드 작성
-2. github에 코드 업로드 [Github 기초 내용 참고](https://github.com/sa11k/LikeLion/blob/master/Github%20%26%20%EB%B0%B0%ED%8F%AC/Github%20%EA%B8%B0%EC%B4%88.md)
+2. github에 코드 업로드 ([Github 기초 내용 참고](https://github.com/sa11k/LikeLion/blob/master/Github%20%26%20%EB%B0%B0%ED%8F%AC/Github%20%EA%B8%B0%EC%B4%88.md))
 3. Netlify에서 github를 연동하여 호스팅(코드를 서버에 올려 인터넷에서 접근할 수 있도록 함)
     - 구글에서 Netlify 검색 / 회원가입
     - New site from Git 클릭
