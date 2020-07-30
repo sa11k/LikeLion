@@ -6,4 +6,4 @@
 - git commit -m "커밋에 대한 설명" : 유사시 돌아갈 수 있는 저장소의 체크 포인트 생성
 - git remote add origin http://원격 저장소 주소.git : 원격 저장소(remote repository) 연결
 
-![git](.\LikeLion\git.PNG)
+![git](https://user-images.githubusercontent.com/63536606/88882519-1e4f4080-d26d-11ea-9076-77b50ccaf07d.PNG)
