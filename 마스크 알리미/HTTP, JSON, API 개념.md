@@ -1,8 +1,8 @@
 # HTTP, JSON, API 개념
 
 ## HTTP
-1. HTTP 개념
-    : *H*yper<br> *T*ext<br> *T*ransfer<br> *P*rotocol
+1. HTTP 개념<br>
+    : *H*yper<br> *T*ext<br> *T*ransfer<br> *P*rotocol<br>
     : Hyper Text - 참조를 통해 한 문서에서 관련된 다른 문서들로 넘나들며 원하는 정보를 얻을 수 있게 해주는 텍스트
     : Transfer Protocol - 인터넷을 통해서 정보를 주고받을 때 지켜야하는 규칙
     ![HTTP](https://user-images.githubusercontent.com/63536606/89115781-1d195000-d4c7-11ea-8210-e829eac3c821.PNG)
@@ -14,8 +14,8 @@
     - DELETE : URL에 표시된 특정 리소스를 삭제
 
 ## JSON
-1. JSON 개념
-    : *J*ava<br> *S*cript<br> *O*bject<br> *N*otation
+1. JSON 개념<br>
+    : *J*ava<br> *S*cript<br> *O*bject<br> *N*otation<br>
     - Key : Value 형식 
     - 데이터 교환 : JSON 형식을 자주 사용. 이전에는 XML이라는 형식도 사용했었다. 
 2. JSON의 특징
@@ -38,16 +38,16 @@
         - JSON.parse(serialized); : 역직렬화 시킴(처음 내용 접근 방법으로 본 것과 같이 출력됨)
 
 ## API
-1. API 개념
-    : *A*pplication<br> *P*rogramming<br> *I*nterface
+1. API 개념<br>
+    : *A*pplication<br> *P*rogramming<br> *I*nterface<br>
     - Application : 우리가 사용하는 다양한 서비스들
     - Programming Interface : 서비스들이 제공해주는 데이터들에 접근하고 사용할 수 있도록 도와주는 도구
 2. API의 종류
     - SOAP : Simple Object Access Protocol
     - REST : Representational State Transfer
     - GraphQL : Graph Query Language
-3. REST
-    : REST는 하나의 아키텍쳐
+3. REST<br>
+    : REST는 하나의 아키텍쳐<br>
     - 소프트웨어 아키텍쳐 : 소프트웨어를 설계하는 지침과 원칙. 
     - 물론 꼭 전부 다 지켜야하는 법이 아니기 때문에 완전히 Restful한 API는 많지 않다.
     - REST의 구성요소

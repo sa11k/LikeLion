@@ -17,7 +17,7 @@
     - '+' 버튼 클릭
     - (GET) jsonplaceholder에서 복사해 온 url을 이용하여 GET 실행 : 복사해 온 url에서 보던 코드를 볼 수 있음
     - (POST) jsonplaceholder에서 복사해 온 url을 이용하여 POST 실행 : 내용을 입력하지 않으면 아이디만 자동으로 생성되는 모습을 볼 수 있음
-    - (POST) jsonplaceholder에서 복사해 온 url을 이용하여 POST를 실행할 때 Body에 raw - JSON 설정후 입력해주면
+    - (POST) jsonplaceholder에서 복사해 온 url을 이용하여 POST를 실행할 때 Body에 raw - JSON 설정 후 다음 내용을 입력해주면
         ```
         {
             "userId": 1,
