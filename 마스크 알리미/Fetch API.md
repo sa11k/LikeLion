@@ -74,7 +74,7 @@
         .then(response => response.json())
         .then(json => console.log(json))
     ```
-2. Fetch APO로 POST 요청 날리기
+2. Fetch API로 POST 요청 날리기
     ```
     // 생성할 Post 객체
     let newPost = {
