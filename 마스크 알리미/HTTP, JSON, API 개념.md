@@ -4,7 +4,7 @@
 1. HTTP 개념<br>
     : *H*yper<br> *T*ext<br> *T*ransfer<br> *P*rotocol<br>
     : Hyper Text - 참조를 통해 한 문서에서 관련된 다른 문서들로 넘나들며 원하는 정보를 얻을 수 있게 해주는 텍스트
-    : Transfer Protocol - 인터넷을 통해서 정보를 주고받을 때 지켜야하는 규칙
+    : Transfer Protocol - 인터넷을 통해서 정보를 주고받을 때 지켜야하는 규칙<br>
     ![HTTP](https://user-images.githubusercontent.com/63536606/89115781-1d195000-d4c7-11ea-8210-e829eac3c821.PNG)
 2. HTTP의 요청 메소드
     - GET : URL에 표시된 리소스를 가져오기

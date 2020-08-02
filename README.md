@@ -9,5 +9,5 @@ LikeLion 8th Baby Lion 송다경
 
 ### 마스크 알리미
 
-1. HTTP, JSON, API 개념 **[[summary]()]**
-1. Postman 실습, 공적 마스크 API 살펴보기 **[[summary]()]**
+1. HTTP, JSON, API 개념 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%95%8C%EB%A6%AC%EB%AF%B8/HTTP%2C%20JSON%2C%20API%20%EA%B0%9C%EB%85%90.md)]**
+1. Postman 실습, 공적 마스크 API 살펴보기 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%95%8C%EB%A6%AC%EB%AF%B8/Postman%20%EC%8B%A4%EC%8A%B5%2C%20%EA%B3%B5%EC%A0%81%20%EB%A7%88%EC%8A%A4%ED%81%AC%20API%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0.md)]**
