@@ -30,7 +30,7 @@
     - const : 변하지 않는 데이터를 저장 (ex. 파이, 객체)
 3. 실습
     - chrome console 활용하여 실습
-     **변수**
+     - **변수**
      ```
      let booleanVal = true
      let numberVal = 0
@@ -49,7 +49,7 @@
         - typeof(numberVal) -> "number"
         - typeof(nullVal) -> "object"
         - null * 2 -> 0
-     **반복문**
+     - **반복문**
      ```
      for (const i = 0; i < 10; i++){
          console.log(i);
@@ -88,7 +88,7 @@
      }
      ```
      - 위와 같이 for문이 아닌 while문을 이용할 수도 있다.
-     **조건문**
+     - **조건문**
      ```
      let score = prompt("점수를 입력하세요.", 0);
      ```
@@ -109,7 +109,7 @@
     - 웹페이지에 접근할 수 있게 해주는 일종의 인터페이스
     - Javascript와는 별개
     - Javascript에 DOM을 조작할 수 있는 API가 존재
-    **Node 선택하기**
+    - **Node 선택하기**
     - ID로 DOM 객체 선택
         ```
         let idObj = document.getElementById("name");
@@ -122,7 +122,7 @@
         ```
         let selectorObj = document.querySelector("#kp-wp-tab-overview > ...");
         ```
-    **속성 변경하기**
+    - **속성 변경하기**
     - 사용할 수 있는 속성들 : style, innerText, innerHtml
         ```
         selectorObj.style = "color:yellow";
@@ -136,7 +136,7 @@
     - innerText와 innerHTML의 차이<br>
         : innerText는 그 텍스트 자체를 바꾸는 것<br>
         : innerHTML은 연결된 하이퍼링크를 바꾸는 것
-    **새 노드 추가하기**
+    - **새 노드 추가하기**
     - createElement, append child
         ```
         let newNode = document.createElement("p");
