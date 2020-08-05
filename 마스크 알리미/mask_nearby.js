@@ -1,3 +1,6 @@
+let url = new URL(window.location.href);
+let keywordParam = url.searchParams.get("keyword");
+
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
 var options = { //지도를 생성할 때 필요한 기본 옵션
     center: new kakao.maps.LatLng(37.5172, 127.0473), //지도의 중심좌표.
@@ -15,12 +18,20 @@ let base_mask_url = "https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/store
 //맵이 만들어졌을 때도 마스크 데이터를 불러와 핀 그리기
 let mapCenter = map.getCenter();
 let mapCenterOld = mapcenter;
-getMaskDataAndDrawMarker(mapCenter.Ha, mapCenter.Ga);
 
+let isFirst = true;
+
+if(keywordParam){
+    keywordSearch(keywordParam);
+    getMaskDataAndDrawMarker(mapCenter.Ha, mapCenter.Ga);
+}else{
+    getMaskDataAndDrawMarker(mapCenter.Ha, mapCenter.Ga);
+}
 
 // 버튼을 누르거나 Enter 눌렀을 때 검색이 되도록 만들기
 let search_btn = document.querySelector(".search-btn");
 let search_bar = document.querySelector("#search-bar");
+let back_btn = document.querySelector(".back-btn-wrapper");
 console.log(search_bar);
 console.log(search_btn);
 
@@ -32,6 +43,10 @@ search_btn.addEventListener("click", () => {
     } else{
         alert("검색어를 입력해주세요.");
     }
+});
+
+back_btn.addEventListener("click", () => {
+    window.history.back();
 });
 
 search_bar.addEventListener("keyup", () => {
@@ -50,7 +65,8 @@ kakao.maps.event.addListener(map, 'center_changed', function() {
     let D = Math.sqrt(Math.pow(X, 2) + Math.pow(Y, 2));
 
     // 일정 거리만큼 Center가 변경될 시에만 마스크 데이터를 볼러오도록 함
-    if(D >= 2){
+    if(isFirst || D >= 2){
+        isFirst = false;
         mapCenterOld = mapCenter;
         getMaskDataAndDrawMarker(mapCenter.Ha, mapCenter.Ga);
     }
@@ -64,7 +80,10 @@ async function keywordSearchCallback (data, status, pagination) {
     if (status === kakao.maps.services.Status.OK) {
         const center = new kakao.maps.LatLng(data[0].y, data[0].x);
         map.setCenter(center);
-    } 
+    } else{
+        alert("장소 검색에 실패했습니다.");
+        document.querySelector(".loader-wrapper").style.display= "none";
+    }
 }
 
 async function getMaskDataAndDrawMarker(lat,lng){

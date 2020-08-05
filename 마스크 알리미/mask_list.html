@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마스크 알리미</title>
+    <link href="./mask_list.css" rel="stylesheet">
+
+    <!-- fontawesome cdn 아이콘 폰트 사용하기 위해서 필요합니다. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" 
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <div class="back-btn-wrapper">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+            공적 마스크 데이터 목록 보기
+        </div>
+    </header>
+
+    <!-- 로더 -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <div class="container">
+        <p><span class="dot green"></span>녹색(100개 이상)</p>
+        <p><span class="dot yellow"></span>노란색(30~99개)</p>
+        <p><span class="dot red"></span>빨간색(2~29개)</p>
+        <p><span class="dot grey"></span>회색(0~1개)</p>
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">판매처 이름</th>
+                <th scope="col">재고 상태</th>
+                <th scope="col">입고 등록 시간</th>
+                <th scope="col">업데이트 시간</th>
+              </tr>
+            </thead>
+            <tbody class="result">
+            </tbody>
+          </table>
+    </div>
+
+    <!-- 장소검색 API를 사용하기 위해서는 &libraries=services 이 부분을 꼭 써야합니다. -->
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2ac3403fc0a0d00f8411a44e76bb3142&libraries=services"></script>
+    <script type="text/javascript" src="./mask_list.js"></script>
+
+</body>
+</html>
