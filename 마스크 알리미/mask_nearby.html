@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마스크 알리미</title>
+    <link href="./mask_nearby.css" rel="stylesheet">
+
+    <!-- fontawesome cdn 아이콘 폰트 사용하기 위해서 필요합니다. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <div class="back-btn-wrapper">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="main">
+            <!-- 로더 -->
+            <div class="loader-wrapper">
+                <div class="loader"></div>
+            </div>
+
+            <!-- 검색창 -->
+            <div class="search-bar-positioner">
+                <div class="search-bar-wrapper">
+                    <input type="text" id="search-bar" placeholder="목적지를 검색하세요.">
+                    <div class="search-btn">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 지도를 띄울 부분 -->
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <!-- 장소검색 API를 사용하기 위해서는 &libraries=services 이 부분을 꼭 써야합니다. -->
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2ac3403fc0a0d00f8411a44e76bb3142&libraries=services"></script>
+    <script type="text/javascript" src="./mask_nearby.js"></script>
+
+</body>
+
+</html>
