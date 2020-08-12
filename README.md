@@ -22,8 +22,6 @@ LikeLion 8th Baby Lion 송다경
 1. Django, 그게 뭐야? **[[summary]()]**
 2. Hello, Django **[[summary]()]**
 3. Django가 관리하는 법 **[[summary]()]**
-4. Django로 나를 소개해볼게 #1 **[[summary]()]**
-5. Django로 나를 소개해볼게 #2 **[[summary]()]**
-6. Django는 중복을 싫어해 **[[summary]()]**
-7. CRUD #1 **[[summary]()]**
-8. CRUD #1 **[[summary]()]**
+4. Django로 나를 소개해볼게 **[[summary]()]**
+5. Django는 중복을 싫어해 **[[summary]()]**
+6. CRUD **[[summary]()]**
