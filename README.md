@@ -19,9 +19,9 @@ LikeLion 8th Baby Lion 송다경
 
 ### 드리머리
 
-1. Django, 그게 뭐야? **[[summary]()]**
-2. Hello, Django **[[summary]()]**
-3. Django가 관리하는 법 **[[summary]()]**
-4. Django로 나를 소개해볼게 **[[summary]()]**
-5. Django는 중복을 싫어해 **[[summary]()]**
-6. CRUD **[[summary]()]**
+1. Django, 그게 뭐야? **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%2C%20%EA%B7%B8%EA%B2%8C%20%EB%AD%90%EC%95%BC.md)]**
+2. Hello, Django **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Hello%2C%20Django.md)]**
+3. Django가 관리하는 법 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%EA%B0%80%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B2%95.md)]**
+4. Django로 나를 소개해볼게 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%EB%A1%9C%20%EB%82%98%EB%A5%BC%20%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B3%BC%EA%B2%8C.md)]**
+5. Django는 중복을 싫어해 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%EB%8A%94%20%EC%A4%91%EB%B3%B5%EC%9D%84%20%EC%8B%AB%EC%96%B4%ED%95%B4.md)]**
+6. CRUD **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/CRUD.md)]**

@@ -2,8 +2,8 @@
 
 ## URL Include
 - App 별로 URL을 관리할 수 있도록 구조화
-    ![url](https://user-images.githubusercontent.com/63536606/89978052-996e1900-dca7-11ea-8be9-f20bdf909ba8.PNG)
-    ![url2](https://user-images.githubusercontent.com/63536606/89978136-c28ea980-dca7-11ea-9d17-185b7fd7e418.PNG)
+    ![url](https://user-images.githubusercontent.com/63536606/89978052-996e1900-dca7-11ea-8be9-f20bdf909ba8.PNG)<br>
+    ![url2](https://user-images.githubusercontent.com/63536606/89978136-c28ea980-dca7-11ea-9d17-185b7fd7e418.PNG)<br>
 1. App 
     - App 폴더 내에 urls.py 생성
     - from django.urls import path
