@@ -16,3 +16,14 @@ LikeLion 8th Baby Lion 송다경
 5. 메인 화면 UI 작업 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%95%8C%EB%A6%AC%EB%AF%B8/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4%20UI%20%EC%9E%91%EC%97%85.md)]**
 6. 메인 화면 기능 구현 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%95%8C%EB%A6%AC%EB%AF%B8/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84.md)]**
 7. 시작화면 UI 및 기능 구현 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%95%8C%EB%A6%AC%EB%AF%B8/%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4%20UI%20%EB%B0%8F%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84.md)]**
+
+### 드리머리
+
+1. Django, 그게 뭐야? **[[summary]()]**
+2. Hello, Django **[[summary]()]**
+3. Django가 관리하는 법 **[[summary]()]**
+4. Django로 나를 소개해볼게 #1 **[[summary]()]**
+5. Django로 나를 소개해볼게 #2 **[[summary]()]**
+6. Django는 중복을 싫어해 **[[summary]()]**
+7. CRUD #1 **[[summary]()]**
+8. CRUD #1 **[[summary]()]**
