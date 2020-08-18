@@ -32,7 +32,7 @@ LikeLion 8th Baby Lion 송다경
 2. 모델과 데이터베이스 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/%EB%AA%A8%EB%8D%B8%EA%B3%BC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.md)]**
 3. ModelForm **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/ModelForm.md)]**
 4. PrimaryKey **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/PrimaryKey.md)]**
-5. User **[[summary]()]**
-6. ForeignKey **[[summary]()]**
-7. 댓글 만들기 **[[summary]()]**
-8. 글자수 세기 **[[summary]()]**
+5. User **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/User.md)]**
+6. ForeignKey **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/ForeignKey.md)]**
+7. 댓글 만들기 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/%EB%8C%93%EA%B8%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)]**
+8. 글자수 세기 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EC%9E%90%EC%86%8C%EC%84%A4%EB%8B%B7%EC%BB%B4/%EA%B8%80%EC%9E%90%EC%88%98%20%EC%84%B8%EA%B8%B0.md)]**
