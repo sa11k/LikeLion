@@ -25,3 +25,7 @@ LikeLion 8th Baby Lion 송다경
 4. Django로 나를 소개해볼게 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%EB%A1%9C%20%EB%82%98%EB%A5%BC%20%EC%86%8C%EA%B0%9C%ED%95%B4%EB%B3%BC%EA%B2%8C.md)]**
 5. Django는 중복을 싫어해 **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/Django%EB%8A%94%20%EC%A4%91%EB%B3%B5%EC%9D%84%20%EC%8B%AB%EC%96%B4%ED%95%B4.md)]**
 6. CRUD **[[summary](https://github.com/sa11k/LikeLion/blob/master/%EB%93%9C%EB%A6%AC%EB%A8%B8%EB%A6%AC/CRUD.md)]**
+
+### 자소설닷컴
+
+1. 자소설 닷컴 만들기 **[[summary]()]**
